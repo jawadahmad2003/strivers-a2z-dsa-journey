@@ -1,0 +1,296 @@
+DAY 04 - FLOWCHARTS AND PSEUDOCODE
+A2Z DSA JOURNEY | TakeUForward
+
+==================================================
+1. WHAT IS A FLOWCHART?
+==================================================
+
+A flowchart is a graphical representation of an algorithm or process.
+
+It uses different shapes and arrows to represent the steps involved in solving a problem.
+
+In simple words, a flowchart shows how a program works step by step using diagrams.
+
+PURPOSE OF FLOWCHARTS:
+
+1. Understand the logic of a problem.
+2. Visualize the execution steps.
+3. Identify the flow of a program.
+4. Make complex problems easier to understand.
+5. Find logical errors before writing code.
+
+==================================================
+2. COMMON FLOWCHART SYMBOLS
+==================================================
+
+Different shapes represent different operations in a flowchart.
+
+1. OVAL (START / END)
+
+   Represents the beginning or end of a process.
+
+2. RECTANGLE (PROCESS)
+
+   Represents an operation or instruction.
+
+   Example:
+   sum = a + b
+
+3. PARALLELOGRAM (INPUT / OUTPUT)
+
+   Represents data input or output.
+
+   Example:
+   Input a number
+   Display result
+
+4. DIAMOND (DECISION)
+
+   Represents a condition that produces different paths.
+
+   Example:
+   Is number > 0?
+
+   Yes or No
+
+5. ARROWS (FLOW LINES)
+
+   Show the direction and sequence of execution.
+
+==================================================
+3. WHAT IS PSEUDOCODE?
+==================================================
+
+Pseudocode is a simple, human-readable way of describing the steps of an algorithm.
+
+It uses ordinary language and programming-like statements to explain the logic of a solution.
+
+Pseudocode does not follow the strict syntax of any particular programming language.
+
+PURPOSE OF PSEUDOCODE:
+
+1. Understand the problem before coding.
+2. Develop logical thinking.
+3. Plan the solution step by step.
+4. Convert an algorithm into actual code easily.
+5. Focus on logic instead of programming syntax.
+
+IMPORTANT:
+Pseudocode is not an actual programming language.
+It is used to describe the logic of a solution.
+
+==================================================
+4. DIFFERENCE BETWEEN FLOWCHART AND PSEUDOCODE
+==================================================
+
+FLOWCHART:
+
+1. Graphical representation of an algorithm.
+2. Uses shapes and arrows.
+3. Shows the flow of execution visually.
+4. Useful for understanding the overall process.
+
+PSEUDOCODE:
+
+1. Text-based representation of an algorithm.
+2. Uses simple English and programming-like statements.
+3. Explains the logic step by step.
+4. Useful for planning a solution before coding.
+
+MAIN DIFFERENCE:
+
+A flowchart represents an algorithm using diagrams, whereas pseudocode represents an algorithm using structured text.
+
+==================================================
+5. REAL-LIFE EXAMPLE: CHECK EVEN OR ODD
+==================================================
+
+PROBLEM:
+
+Determine whether a given number is even or odd.
+
+INPUT:
+8
+
+EXPECTED OUTPUT:
+Even
+
+STEP 1: UNDERSTAND THE LOGIC
+
+1. Take a number as input.
+2. Divide the number by 2.
+3. Check the remainder.
+4. If the remainder is 0, the number is even.
+5. Otherwise, the number is odd.
+
+STEP 2: PSEUDOCODE
+
+START
+
+INPUT N
+
+IF N MOD 2 = 0 THEN
+    PRINT "Even"
+ELSE
+    PRINT "Odd"
+END IF
+
+STOP
+
+NOTE:
+MOD means the remainder after division.
+
+Example:
+8 MOD 2 = 0
+Therefore, 8 is Even.
+
+7 MOD 2 = 1
+Therefore, 7 is Odd.
+
+STEP 3: FLOWCHART LOGIC
+
+START
+  |
+INPUT N
+  |
+IS N MOD 2 = 0?
+  |
+  |---- YES ----> PRINT "Even"
+  |
+  |---- NO -----> PRINT "Odd"
+                    |
+                   STOP
+
+==================================================
+6. REAL-LIFE EXAMPLE: ADD TWO NUMBERS
+==================================================
+
+PROBLEM:
+
+Take two numbers and calculate their sum.
+
+INPUT:
+A = 10
+B = 20
+
+EXPECTED OUTPUT:
+30
+
+PSEUDOCODE:
+
+START
+
+INPUT A
+INPUT B
+
+SUM = A + B
+
+PRINT SUM
+
+STOP
+
+PYTHON IMPLEMENTATION:
+
+a = 10
+b = 20
+
+sum = a + b
+
+print(sum)
+
+OUTPUT:
+30
+
+==================================================
+7. IMPORTANT KEYWORDS IN PSEUDOCODE
+==================================================
+
+START:
+Indicates the beginning of an algorithm.
+
+STOP:
+Indicates the end of an algorithm.
+
+INPUT:
+Receives data from the user.
+
+OUTPUT / PRINT:
+Displays the result.
+
+IF:
+Checks a condition.
+
+ELSE:
+Executes an alternative path when the IF condition is false.
+
+THEN:
+Indicates the action to perform when a condition is true.
+
+WHILE:
+Repeats instructions while a condition remains true.
+
+FOR:
+Repeats instructions for a specified number of iterations.
+
+==================================================
+8. BENEFITS OF FLOWCHARTS
+==================================================
+
+1. Makes program logic easier to understand.
+2. Provides a visual representation of an algorithm.
+3. Helps identify logical errors.
+4. Improves communication between developers.
+5. Makes complex processes easier to explain.
+6. Helps plan a program before implementation.
+
+==================================================
+9. BENEFITS OF PSEUDOCODE
+==================================================
+
+1. Easy to write and understand.
+2. Does not depend on a programming language.
+3. Focuses on problem-solving logic.
+4. Helps convert logic into actual code.
+5. Makes algorithms easier to explain.
+6. Reduces confusion during implementation.
+
+==================================================
+10. KEY TAKEAWAYS
+==================================================
+
+1. A flowchart is a graphical representation of an algorithm.
+2. Pseudocode is a text-based representation of an algorithm.
+3. Flowcharts use different symbols to represent operations.
+4. A diamond represents a decision.
+5. A rectangle represents a process.
+6. A parallelogram represents input and output.
+7. An oval represents the start or end.
+8. Arrows represent the direction of execution.
+9. Pseudocode focuses on logic rather than programming syntax.
+10. Both techniques help us plan solutions before writing code.
+
+==================================================
+11. MY LEARNING REFLECTION
+==================================================
+
+Today, I learned about flowcharts and pseudocode and how they help programmers understand and design algorithms before writing actual code.
+
+I understood that flowcharts provide a visual representation of program logic, while pseudocode explains the same logic using simple, structured text.
+
+I also learned common flowchart symbols and practiced writing pseudocode for basic problems such as checking even or odd numbers and adding two numbers.
+
+MY MAIN LESSON:
+
+BEFORE WRITING ACTUAL CODE, UNDERSTAND THE PROBLEM AND REPRESENT ITS LOGIC USING A FLOWCHART OR PSEUDOCODE.
+
+==================================================
+LEARNING RESOURCE
+==================================================
+
+Course: A2Z DSA Journey
+Platform: TakeUForward
+Topic: Flowcharts and Pseudocode
+
+==================================================
+END OF DAY 1
+==================================================
