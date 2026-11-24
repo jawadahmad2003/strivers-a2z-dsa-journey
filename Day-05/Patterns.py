@@ -55,3 +55,43 @@ def pattern18(n):
         print()
 
 pattern18(5)
+
+
+def pattern19(n):
+
+    # Upper half
+    for i in range(n):
+
+        # Left stars
+        for j in range(n - i):
+            print("*", end="")
+
+        # Spaces
+        for j in range(2 * i):
+            print(" ", end="")
+
+        # Right stars
+        for j in range(n - i):
+            print("*", end="")
+
+        print()
+
+    # Lower half
+    for i in range(n):
+
+        # Left stars
+        for j in range(i + 1):
+            print("*", end="")
+
+        # Spaces
+        for j in range(2 * (n - i - 1)):
+            print(" ", end="")
+
+        # Right stars
+        for j in range(i + 1):
+            print("*", end="")
+
+        print()
+
+
+pattern19(5)
