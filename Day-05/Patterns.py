@@ -36,3 +36,22 @@ def pattern8(n):
         print()
 
 pattern8(5)
+
+print("\n")
+
+def pattern18(n):
+    for i in range(1, n + 1):
+
+        # Spaces
+
+
+        # Alphabets
+        ch = chr(ord('A') + n - i)
+
+        for j in range(i):
+            print(ch, end=" ")
+            ch = chr(ord(ch) + 1)
+
+        print()
+
+pattern18(5)
